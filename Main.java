@@ -93,19 +93,6 @@ built-in method)*/
 should then output a message indicating whether the number is a prime
 number.*/
 
-//        int positive=0,exit=1;
-//do{System.out.println("Please Enter positive number or exit 0");
-//     positive=input.nextInt();
-//     if(positive==1) {System.out.println(positive+ " is prime" );}
-//    else {
-//        for(int ii=2;i>=positive;ii++){
-//        if (positive%ii==0){
-//            System.out.println(positive+ " is not prime" );
-//            continue;}
-//        else System.out.println(positive+ " is  prime" );
-//    }}
-//}
-//while(positive>0&&exit!=0);
         int iter = 2, prime = 0;
 
         System.out.print("Please enter number to check : ");
