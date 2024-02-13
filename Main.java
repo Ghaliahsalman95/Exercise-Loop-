@@ -31,8 +31,6 @@ Test Data: Input a string: The quick brown fox Expected Output: Reverse
 string: xof nworb kciuq ehT*/
         System.out.println("-----------Exercise 2--------------");
         String reserve = "";
-        String newStr = "";
-        char wordChart;
         System.out.println("Write word to reverse it.");
         String word = input.nextLine();
         word = word.replace(" ", "");
@@ -40,7 +38,7 @@ string: xof nworb kciuq ehT*/
             reserve = reserve + word.charAt(i);
         }
         System.out.println("Output: " + reserve);
-///-------------------------------------------- Exercise 3------------------------
+///-------------------------------------------- Exercise 3-----------------------------------
 
 /**Write a program to find the factorial value of any number entered
  through the keyboard.*/
@@ -51,7 +49,7 @@ string: xof nworb kciuq ehT*/
             factnum *= i;
         }
         System.out.println("The factorial value of The number entered is " + factnum);
-//------------------------Exercise 4----------------------------------------
+//-----------------------------------------------Exercise 4----------------------------------------
 
         /*4.Two numbers are entered through the keyboard. Write a program to find
 the value of one number raised to the power of another. (Do not use Java
@@ -66,7 +64,7 @@ built-in method)*/
         }
         System.out.println("The result is " + newnumber);
 
-//------------------------Exercise 5----------------------------------------
+//------------------------------------------------Exercise 5----------------------------------------
        /* 5.Write a program that reads a set of integers, and then prints the sum of
         the even and odd integers.*/
         int sumEven = 0, sumOdd = 0, read = 0;
@@ -87,7 +85,7 @@ built-in method)*/
         System.out.println("Total Even number is " + sumEven);
         System.out.println("Total Odd number is " + sumOdd);
 
-//---------------------------------Exercise 6--------------------------
+//-----------------------------------------------Exercise 6--------------------------
 
         /*6.Write a program that prompts the user to input a positive integer. It
 should then output a message indicating whether the number is a prime
@@ -128,14 +126,13 @@ Day2*/
 
             }
         }
-//------------------------------- Exercise 8------------------------
+//------------------------------------------ Exercise 8------------------------
 
 /*8.Write a program thats check if the word is a palindrome or not. hint: A
 string is said to be a palindrome if it is the same if we start reading it from
 left to right or right to left.*/
         String reserve8 = "";
-        String newStr8 = "";
-        char wordChart8;
+
         //--- reuseble code exercise 2 reverse
         System.out.println("Please enter word to check if it palindrome or not");
         String word8 = input.next();
